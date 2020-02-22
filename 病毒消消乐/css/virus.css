@@ -1,0 +1,42 @@
+.viruss{
+	width: 550px;
+	height: 550px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	padding: 10px 10px 40px 40px ;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -300px;
+}
+
+.virus1{
+	background:url(../img/病毒1.png);
+	
+}
+.virus2{
+	background:url(../img/病毒2.png);
+}
+.virus3{
+	background: url(../img/病毒3.png);
+}
+.virus4{
+	background: url(../img/病毒4.png);
+}
+.virus5{
+	background: url(../img/病毒5.png);
+}
+.virus{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-right: 28px;
+	margin-top: 28px;
+	background-size: contain;
+	cursor: pointer;
+}
+.cure{
+	
+	background: url(../img/爱心.png);
+	background-size: contain;
+}

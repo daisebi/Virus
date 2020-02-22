@@ -1,0 +1,37 @@
+.mainMenu{
+	height: 598px;
+	width: 398px;
+	border: 1px solid #000000;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 134px;	
+	background-color: rgba(225,225,225,0.3);
+}
+.menu{
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+	opacity: 1;
+	color: darkslategrey;
+}
+.header{
+	font-size: 45px;
+	font-weight: 900;
+}
+.gameStart:hover{
+	font-size: 50px;
+	transition: all 0.5s;
+}
+.gameStart:nth-child(2){
+	color: #74D2E7;
+}
+.gameStart:nth-child(3){
+	color: #006400;
+}
+.gameStart:nth-child(4){
+	color: #8B1010;
+}

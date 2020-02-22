@@ -1,0 +1,7 @@
+$(function(){
+	
+	initMenu();
+	initGame();
+	initAWindows();
+	
+});

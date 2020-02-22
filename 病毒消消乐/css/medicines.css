@@ -1,0 +1,41 @@
+.medicines{
+	height: 600px;
+	width: 150px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.9);
+	top: 50%;
+	margin-top: -300px;
+	right: 20%;
+	margin-right: -75px;
+}
+.medicinesTitle{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #006400;
+}
+
+.medicine1{
+	background: url(../img/药丸1.png);
+}
+.medicine2{
+	background:url(../img/药丸2.png);
+}
+.medicine3{
+	background:url(../img/药丸3.png);
+}
+.medicine4{
+	background:url(../img/药丸4.png);
+}
+.medicine5{
+	background:url(../img/药丸5.png);
+}
+.medicine{
+	height: 48px;
+	width: 64px;
+	margin: 12px 43px;
+	background-size: contain;
+	cursor: pointer;
+}

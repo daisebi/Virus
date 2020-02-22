@@ -1,0 +1,30 @@
+.label{
+	width: 280px;
+	height: 600px;
+	position: absolute;
+	top: 60px;
+	left: 34px;
+	background-color: rgba(255,255,255,0.8);
+}
+.labelTitle{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 26px;
+	color: #A52A2A;
+}
+.tips{
+	height: 40px;
+	font-size: 22px;
+	padding-left: 18px;
+	color: rgb(65,168,99);
+}
+.tip{
+	margin-top: 15px;
+	height: 60px;
+	padding-left: 18px;
+	font-size: 18px;
+	text-indent: 22px;
+	line-height: 32px;
+	color: darkslategrey;
+}

@@ -1,0 +1,260 @@
+@keyframes dim{
+	
+	0%{
+		filter: blur(0px);
+	}
+	12.5%{
+		filter: blur(1px);
+	}
+	25%{
+		filter: blur(2px);
+	}
+	37.5%{
+		filter: blur(3px);
+	}
+	50%{
+		filter: blur(4px);
+	}
+	62.5%{
+		filter: blur(5px);
+	}
+	75%{
+		filter: blur(6px);
+	}
+	87.5%{
+		filter: blur(7px);
+	}
+	100%{
+		filter: blur(8px);
+	}
+		
+}
+@keyframes clearDim{
+	
+	0%{
+		filter: blur(8px);
+	}
+	12.5%{
+		filter: blur(7px);
+	}
+	25%{
+		filter: blur(6px);
+	}
+	37.5%{
+		filter: blur(5px);
+	}
+	50%{
+		filter: blur(4px);
+	}
+	62.5%{
+		filter: blur(3px);
+	}
+	75%{
+		filter: blur(2px);
+	}
+	87.5%{
+		filter: blur(1px);
+	}
+	100%{
+		filter: blur(0px);
+	}
+		
+}
+@keyframes clearFont{
+	
+	0%{
+		opacity: 1;
+	}
+	12.5%{
+		opacity:0.87;
+	}
+	25%{
+		opacity:0.75;
+	}
+	37.5%{
+		opacity:0.62;
+	}
+	50%{
+		opacity:0.5;
+	}
+	62.5%{
+		opacity:0.37;
+	}
+	75%{
+		opacity:0.25;
+	}
+	87.5%{
+		opacity:0.12;
+	}
+	100%{
+		opacity:0;
+	}
+		
+}
+@keyframes createFont{
+	
+	0%{
+		opacity:0;
+	}
+	12.5%{
+		opacity:0.12;
+	}
+	25%{
+		opacity:0.25;
+	}
+	37.5%{
+		opacity:0.37;
+	}
+	50%{
+		opacity:0.5;
+	}
+	62.5%{
+		opacity:0.6;
+	}
+	75%{
+		opacity:0.75;
+	}
+	87.5%{
+		opacity:0.87;
+	}
+	100%{
+		opacity:1;
+	}
+		
+}
+@keyframes clearBoder{
+	
+	0%{
+		background-color: rgba(225,225,225,0.3);
+		box-shadow: 2px 2px 8px 0px ;
+		border-color: rgba(0,0,0,1);
+	}
+	12.5%{
+		border-color: rgba(0,0,0,0.87);
+	}
+	25%{
+		border-color: rgba(0,0,0,0.75);
+	}
+	37.5%{
+		border-color: rgba(0,0,0,0.62);
+	}
+	50%{
+		background-color: rgba(225,225,225,0.1);
+		box-shadow: 1px 1px 4px 0px ;
+		border-color: rgba(0,0,0,0.5);
+	}
+	62.5%{
+		border-color: rgba(0,0,0,0.37);
+	}
+	75%{
+		border-color: rgba(0,0,0,0.25);
+	}
+	87.5%{
+		border-color: rgba(0,0,0,0.12);
+	}
+	100%{
+		background-color: rgba(225,225,225,0);
+		box-shadow: 0px 0px 0px 0px ;
+		border-color: rgba(0,0,0,0);
+	}
+		
+}
+@keyframes createBoder{
+	
+	0%{
+		background-color: rgba(225,225,225,0);
+		box-shadow: 0px 0px 0px 0px ;
+		border-color: rgba(0,0,0,0);
+	}
+	12.5%{
+		border-color: rgba(0,0,0,0.12);
+	}
+	25%{
+		border-color: rgba(0,0,0,0.25);
+	}
+	37.5%{
+		border-color: rgba(0,0,0,0.37);
+	}
+	50%{
+		background-color: rgba(225,225,225,0.2);
+		box-shadow: 1px 1px 4px 0px ;
+		border-color: rgba(0,0,0,0.5);
+	}
+	62.5%{
+		border-color: rgba(0,0,0,0.62);
+	}
+	75%{
+		border-color: rgba(0,0,0,0.75);
+	}
+	87.5%{
+		border-color: rgba(0,0,0,0.87);
+	}
+	100%{
+		background-color: rgba(225,225,225,0.3);
+		box-shadow: 2px 2px 8px 0px ;
+		border-color: rgba(0,0,0,1);
+	}
+		
+}
+@keyframes upWindows{
+	
+	0%{
+		top: 200px;
+	}
+	12.5%{
+		top: 120px;
+	}
+	25%{
+		top: 40px;
+	}
+	37.5%{
+		top: -80px;
+	}
+	50%{
+		top: -160px;
+	}
+	62.5%{
+		top: -240px;
+	}
+	75%{
+		top: -320px;
+	}
+	87.5%{
+		top: -640px;
+	}
+	100%{
+		top: -1280px;
+	}
+		
+}
+@keyframes downWindows{
+	
+	0%{
+		top: -1280px;
+	}
+	12.5%{
+		top: -640px;
+	}
+	25%{
+		top: -320px;
+	}
+	37.5%{
+		top: -240px;
+	}
+	50%{
+		top: -160px;
+	}
+	62.5%{
+		top: -80px;
+	}
+	75%{
+		top: 40px;
+	}
+	87.5%{
+		top: 120px;
+	}
+	100%{
+		top: 200px;
+	}
+		
+}
